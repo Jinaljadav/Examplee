@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@android:color/background_dark">
+    android:padding="16dp">
 
 
     <TextView
@@ -44,4 +43,10 @@
         android:layout_marginTop="10dp"
         android:text="Reset"/>
 
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write your name here"
+        android:textColor="@color/white"/>
 </LinearLayout>
